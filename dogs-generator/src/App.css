@@ -1,0 +1,89 @@
+.screen{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #451531;
+}
+
+.container{
+  height: auto;
+  width: auto;
+  padding: 12px;
+  background-color: #a5befa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 1.5rem;
+}
+
+.dog-img{
+  width: 100px;
+  height: auto;
+}
+
+.input-div{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:8px
+}
+
+input{
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #FF3877;
+  padding: 8px;
+}
+
+.button-glass{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 999px;
+  border:none;
+  background-color: #fdc7d8;
+  cursor: pointer;
+}
+
+.button-glass:hover{
+  background-color: #ff82aa;
+}
+
+input:focus{
+  border-width: 2px;
+  outline: none;
+
+}
+
+.dog-fa{
+  height: 20px;
+  width: auto;
+}
+
+.image-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-div img{
+  height: 160px;
+  width: auto;
+}
+
+.not-found-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1px
+}
